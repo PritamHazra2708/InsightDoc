@@ -1,0 +1,56 @@
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+!.env.example.*
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+**/venv/
+**/.venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Frontend dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+**/dist/
+**/build/
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local uploads, generated indexes and model/cache data
+uploads/
+data/
+artifacts/
+*.faiss
+*.index

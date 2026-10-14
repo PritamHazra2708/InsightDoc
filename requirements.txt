@@ -1,0 +1,4 @@
+cd "C:\Users\prita\OneDrive\Desktop\New folder\Project\InsightDoc"
+.\venv\Scripts\Activate.ps1
+cd backend
+python -m pip freeze > requirements.txt
